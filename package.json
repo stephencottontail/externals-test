@@ -1,0 +1,17 @@
+{
+  "name": "externals-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx wp-scripts build",
+    "build-with-no-externals": "npx wp-scripts build --webpack-no-externals"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/blocks": "^12.4.0",
+    "@wordpress/scripts": "^25.4.0"
+  }
+}
